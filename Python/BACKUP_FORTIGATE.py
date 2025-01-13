@@ -40,8 +40,8 @@ if __name__ == "__main__":
     # Configurações do FortiGate
     fortigate_hostname = "192.168.255.254"  # Endereço IP do FortiGate
     fortigate_port = 22911                   # Porta SSH (alterar se necessário)
-    fortigate_username = "sysconnect"  # Nome de usuário SSH
-    fortigate_password = "Hts2021#2"        # Senha SSH
+    fortigate_username = ""  # Nome de usuário SSH
+    fortigate_password = ""        # Senha SSH
 
     # Comando de backup
     backup_command = "execute backup config sftp /NETWORK/Automation/MAI_FGT01_SYS.conf 192.168.11.27 joao.clemente Apstndp"
